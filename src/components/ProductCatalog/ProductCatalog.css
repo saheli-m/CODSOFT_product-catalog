@@ -1,0 +1,47 @@
+.fa-solid {
+  color: rgb(13, 70, 85);
+  font-size: 30px;
+  margin: 10px 5px 0 5px;
+}
+
+.cart {
+  font-size: 25px;
+  font-weight: 500;
+  color: rgb(13, 70, 85);
+}
+
+.product-catalog {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  margin-bottom: 25px;
+}
+
+.product-item {
+  text-align: center;
+  width: 285px;
+  margin: 10px 12px;
+}
+
+.product-catalog .card {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.product-catalog .card:hover {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.35);
+}
+
+img {
+  height: 240px;
+}
+
+.product-catalog .card-title {
+  color: #073b4c;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.product-catalog .card-text {
+  color: #282c3f;
+}

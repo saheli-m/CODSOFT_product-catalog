@@ -1,4 +1,17 @@
-.App {
+alert {
+  /* Styles for the alert message */
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  opacity: 0.8;
+  display: none; /* Initially hidden */
+}
+
+.alert.show {
+  display: block; /* Make visible after adding the class */
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +48,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
